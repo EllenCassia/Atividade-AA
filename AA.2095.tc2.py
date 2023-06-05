@@ -11,7 +11,7 @@ for i in range(len(n)):
     aux = 0
     while j < len(q) and len(q) != 0:
         if(n[i] > q[j]):
-            q.remove(q[j])
+            q.pop(j)
             j=0
             aux += 1
         else:
