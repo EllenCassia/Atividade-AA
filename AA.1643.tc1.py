@@ -36,11 +36,3 @@ for _ in range(n):
         i -= 1
     print("milhas: ")
     print(ans)
-
-
-
-
-
-
-
-
